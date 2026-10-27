@@ -1,0 +1,375 @@
+{
+ "protocole": "Séparations chronologiques uniquement. Aucune donnée d'arrivée de la course prédite n'entre dans les features.",
+ "1_validation_toutes_courses_01-08_11-09": {
+  "courses_>=8_partants": 1628,
+  "top5_dans_7": {
+   "marche": 3.783,
+   "V5": 3.915
+  },
+  "logloss_top5": {
+   "marche_PL": 0.6423,
+   "V5": 0.6021
+  },
+  "V5_moins_marche_top5_dans_7": {
+   "diff": 0.1321,
+   "ci95": [
+    0.1001,
+    0.1646
+   ],
+   "p_gt0": 1.0
+  }
+ },
+ "2_grands_champs_non_quinte_754_courses": {
+  "market": {
+   "races": 754,
+   "hits7": 3.452,
+   "trio7": 0.459,
+   "quarte7": 0.251,
+   "quinte7": 0.133,
+   "win_top1": 0.259,
+   "win_top3": 0.573
+  },
+  "V4.5": {
+   "races": 754,
+   "hits7": 3.391,
+   "trio7": 0.446,
+   "quarte7": 0.245,
+   "quinte7": 0.105,
+   "win_top1": 0.249,
+   "win_top3": 0.564
+  },
+  "V5": {
+   "races": 754,
+   "hits7": 3.524,
+   "trio7": 0.46,
+   "quarte7": 0.265,
+   "quinte7": 0.133,
+   "win_top1": 0.253,
+   "win_top3": 0.582
+  },
+  "V45_minus_market_hits7": {
+   "diff": -0.061,
+   "ci95": [
+    -0.1088,
+    -0.0119
+   ],
+   "p_gt0": 0.006
+  },
+  "V5_minus_market_hits7": {
+   "diff": 0.0716,
+   "ci95": [
+    0.0239,
+    0.1194
+   ],
+   "p_gt0": 0.998
+  },
+  "V5_minus_V45_hits7": {
+   "diff": 0.1326,
+   "ci95": [
+    0.0796,
+    0.1857
+   ],
+   "p_gt0": 1.0
+  },
+  "V5_minus_V45_quarte7": {
+   "diff": 0.0199,
+   "ci95": [
+    -0.004,
+    0.0438
+   ],
+   "p_gt0": 0.946
+  },
+  "V5_minus_V45_win_top3": {
+   "diff": 0.0186,
+   "ci95": [
+    -0.0093,
+    0.0451
+   ],
+   "p_gt0": 0.897
+  }
+ },
+ "2b_grands_champs_PLAT": {
+  "market": {
+   "races": 274,
+   "hits7": 3.328,
+   "trio7": 0.365,
+   "quarte7": 0.215,
+   "quinte7": 0.135,
+   "win_top1": 0.212,
+   "win_top3": 0.482
+  },
+  "V4.5": {
+   "races": 274,
+   "hits7": 3.226,
+   "trio7": 0.325,
+   "quarte7": 0.186,
+   "quinte7": 0.088,
+   "win_top1": 0.186,
+   "win_top3": 0.482
+  },
+  "V5": {
+   "races": 274,
+   "hits7": 3.482,
+   "trio7": 0.387,
+   "quarte7": 0.223,
+   "quinte7": 0.131,
+   "win_top1": 0.208,
+   "win_top3": 0.518
+  },
+  "V45_minus_market_hits7": {
+   "diff": -0.1022,
+   "ci95": [
+    -0.2153,
+    0.0073
+   ],
+   "p_gt0": 0.033
+  },
+  "V5_minus_market_hits7": {
+   "diff": 0.1533,
+   "ci95": [
+    0.0547,
+    0.2555
+   ],
+   "p_gt0": 0.998
+  },
+  "V5_minus_V45_hits7": {
+   "diff": 0.2555,
+   "ci95": [
+    0.1387,
+    0.3759
+   ],
+   "p_gt0": 1.0
+  },
+  "V5_minus_V45_quarte7": {
+   "diff": 0.0365,
+   "ci95": [
+    -0.0109,
+    0.0876
+   ],
+   "p_gt0": 0.924
+  },
+  "V5_minus_V45_win_top3": {
+   "diff": 0.0365,
+   "ci95": [
+    -0.0219,
+    0.0949
+   ],
+   "p_gt0": 0.882
+  }
+ },
+ "3_quintes_forward_41_cote_T20": {
+  "market_top7": {
+   "races": 41,
+   "hits7_mean": 3.488,
+   "trio7": 16,
+   "quarte7": 7,
+   "quinte7": 5,
+   "win_top1": 6,
+   "win_top3": 23,
+   "hits5_in5_mean": 2.854
+  },
+  "V4.5": {
+   "races": 41,
+   "hits7_mean": 3.512,
+   "trio7": 20,
+   "quarte7": 9,
+   "quinte7": 4,
+   "win_top1": 8,
+   "win_top3": 21,
+   "hits5_in5_mean": 2.951
+  },
+  "V5": {
+   "races": 41,
+   "hits7_mean": 3.585,
+   "trio7": 22,
+   "quarte7": 11,
+   "quinte7": 7,
+   "win_top1": 7,
+   "win_top3": 22,
+   "hits5_in5_mean": 2.927
+  },
+  "top5_logloss": {
+   "V4.5_logistic": 0.5437,
+   "V5": 0.532
+  },
+  "V5_minus_V45_hits7": {
+   "diff": 0.0732,
+   "ci95": [
+    -0.0976,
+    0.2439
+   ],
+   "p_gt0": 0.742
+  },
+  "V5_minus_market_hits7": {
+   "diff": 0.0976,
+   "ci95": [
+    -0.0732,
+    0.2683
+   ],
+   "p_gt0": 0.833
+  },
+  "V5_minus_V45_win_top3": {
+   "diff": 0.0244,
+   "ci95": [
+    -0.122,
+    0.1707
+   ],
+   "p_gt0": 0.575
+  }
+ },
+ "3b_quintes_forward_PLAT_14": {
+  "market_top7": {
+   "races": 14,
+   "hits7_mean": 3.357,
+   "trio7": 4,
+   "quarte7": 2,
+   "quinte7": 1,
+   "win_top1": 2,
+   "win_top3": 7,
+   "hits5_in5_mean": 2.786
+  },
+  "V4.5": {
+   "races": 14,
+   "hits7_mean": 3.429,
+   "trio7": 5,
+   "quarte7": 3,
+   "quinte7": 2,
+   "win_top1": 3,
+   "win_top3": 5,
+   "hits5_in5_mean": 2.857
+  },
+  "V5": {
+   "races": 14,
+   "hits7_mean": 3.429,
+   "trio7": 5,
+   "quarte7": 2,
+   "quinte7": 1,
+   "win_top1": 3,
+   "win_top3": 8,
+   "hits5_in5_mean": 2.857
+  }
+ },
+ "4_forward_toutes_courses_proba_gagnant": {
+  "races": 1191,
+  "period": [
+   "2026-09-12",
+   "2026-10-23"
+  ],
+  "win_logloss": {
+   "market_T20": 1.9841,
+   "V5": 1.9862,
+   "V5_minus_market": {
+    "diff": 0.0021,
+    "ci95": [
+     -0.0086,
+     0.0127
+    ],
+    "p_gt0": 0.653
+   }
+  },
+  "place_logloss": {
+   "market_PL": 0.5107,
+   "V5_top5head_PL": 0.5077,
+   "V5_minus_market": {
+    "diff": -0.003,
+    "ci95": [
+     -0.0067,
+     0.0006
+    ],
+    "p_gt0": 0.052
+   }
+  },
+  "fav_wins": {
+   "market": 0.2989,
+   "V5": 0.3023
+  },
+  "value_win_bets": {
+   "all_runners": {
+    "bets": 13534,
+    "roi": -0.2257
+   },
+   "edge>1.0": {
+    "bets": 1303,
+    "winners": 191,
+    "roi": -0.1333,
+    "roi_ci95": [
+     -0.31,
+     0.087
+    ]
+   },
+   "edge>1.1": {
+    "bets": 507,
+    "winners": 80,
+    "roi": 0.0882,
+    "roi_ci95": [
+     -0.256,
+     0.561
+    ]
+   },
+   "edge>1.2": {
+    "bets": 190,
+    "winners": 25,
+    "roi": 0.1384,
+    "roi_ci95": [
+     -0.546,
+     1.314
+    ]
+   },
+   "edge>1.3": {
+    "bets": 73,
+    "winners": 6,
+    "roi": 0.511,
+    "roi_ci95": [
+     -0.899,
+     3.184
+    ]
+   },
+   "edge>1.5": {
+    "bets": 27,
+    "winners": 1,
+    "roi": 2.2185,
+    "roi_ci95": [
+     -1.0,
+     8.656
+    ]
+   }
+  }
+ },
+ "5_walkforward_58_quintes_de_developpement_V4x": {
+  "V4.5 (backtest publié, recettes réglées sur ces courses)": {
+   "races": 58,
+   "hits7_mean": 3.379,
+   "trio7": 25,
+   "quarte7": 16,
+   "quinte7": 9,
+   "win_top1": 15,
+   "win_top3": 31
+  },
+  "V5": {
+   "races": 58,
+   "hits7_mean": 3.293,
+   "trio7": 22,
+   "quarte7": 11,
+   "quinte7": 3,
+   "win_top1": 10,
+   "win_top3": 27,
+   "hits5_in5_mean": 2.534
+  },
+  "V5_minus_V45_hits7": {
+   "diff": -0.0862,
+   "ci95": [
+    -0.2418,
+    0.0862
+   ],
+   "p_gt0": 0.141
+  },
+  "V5_minus_V45_win_top3": {
+   "diff": -0.069,
+   "ci95": [
+    -0.2069,
+    0.069
+   ],
+   "p_gt0": 0.126
+  }
+ }
+}

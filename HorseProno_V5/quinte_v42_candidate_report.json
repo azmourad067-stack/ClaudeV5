@@ -1,0 +1,45 @@
+{
+  "model_name": "HorseProno_Quinte_V4_2_PLAT_contextual",
+  "status": "candidate_forward_validation",
+  "architecture": {
+    "PLAT": "consensus V2/V3 + arbitrage 0.60 Top5 + 0.20 LambdaMART + 0.10 contexte + coefficient marche adaptatif selon ecart de poids",
+    "PLAT_market_weight": {
+      "weight_spread_le_6kg": -0.80,
+      "weight_spread_gt_6_le_8kg": -1.00,
+      "weight_spread_gt_8kg": -0.50,
+      "missing_weight_fallback": -0.80
+    },
+    "other_disciplines": "V4 generale inchangee: 0.60 Top5 + 0.25 LambdaMART + 0.15 contexte - 0.40 marche",
+    "shortlist_size": 7
+  },
+  "important_note": "L'ecart de poids est un proxy pre-course de structure du handicap; le fichier historique ne contient pas de drapeau handicap explicite. Aucune regle hippodrome, corde ou taille de peloton n'est utilisee pour modifier la selection V4.2.",
+  "selection_protocol": {
+    "development_flat_races": 17,
+    "development_period": "2026-07-12 to 2026-08-09",
+    "temporal_check_flat_races": 14,
+    "temporal_check_period": "2026-08-10 to 2026-09-06",
+    "note": "La V4.2 reste une candidate. Le corpus a deja servi aux versions precedentes; la validation decisive doit etre forward sur de nouveaux Quintes."
+  },
+  "flat_31": {
+    "v41": {"races": 31, "avg_hits": 3.3225806452, "trio": 12, "quarte": 9, "quinte": 4},
+    "v42": {"races": 31, "avg_hits": 3.3870967742, "trio": 13, "quarte": 9, "quinte": 4}
+  },
+  "flat_development_17": {
+    "v41": {"avg_hits": 3.4117647059, "trio": 7, "quarte": 5, "quinte": 2},
+    "v42": {"avg_hits": 3.4705882353, "trio": 8, "quarte": 5, "quinte": 2}
+  },
+  "flat_temporal_check_14": {
+    "v41": {"avg_hits": 3.2142857143, "trio": 5, "quarte": 4, "quinte": 2},
+    "v42": {"avg_hits": 3.2857142857, "trio": 5, "quarte": 4, "quinte": 2}
+  },
+  "all_58": {
+    "v41": {"avg_hits": 3.3448275862, "trio": 24, "quarte": 16, "quinte": 9},
+    "v42": {"avg_hits": 3.3793103448, "trio": 25, "quarte": 16, "quinte": 9}
+  },
+  "diagnostics": {
+    "distance_1500_2000m": "segment le plus regulier; pas de coefficient specifique ajoute",
+    "field_size_17_plus": "2 courses seulement et performances faibles; alerte de confiance uniquement",
+    "draw": "rappel plus faible sur cordes exterieures en 2400m+, mais un bonus direct a degrade les selections; aucune correction appliquee",
+    "hippodrome": "effectifs insuffisants pour des coefficients piste-specifiques"
+  }
+}

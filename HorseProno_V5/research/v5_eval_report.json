@@ -1,0 +1,241 @@
+{
+ "A_walkforward58": {
+  "V4.5 (backtest publi\u00e9, recettes r\u00e9gl\u00e9es sur ces courses)": {
+   "races": 58,
+   "hits7_mean": 3.379,
+   "trio7": 25,
+   "quarte7": 16,
+   "quinte7": 9,
+   "win_top1": 15,
+   "win_top3": 31
+  },
+  "V5": {
+   "races": 58,
+   "hits7_mean": 3.293,
+   "trio7": 22,
+   "quarte7": 11,
+   "quinte7": 3,
+   "win_top1": 10,
+   "win_top3": 27,
+   "hits5_in5_mean": 2.534
+  },
+  "V5_minus_V45_hits7": {
+   "diff": -0.0862,
+   "ci95": [
+    -0.2418,
+    0.0862
+   ],
+   "p_gt0": 0.141
+  },
+  "V5_minus_V45_win_top3": {
+   "diff": -0.069,
+   "ci95": [
+    -0.2069,
+    0.069
+   ],
+   "p_gt0": 0.126
+  }
+ },
+ "A_walkforward58_PLAT": {
+  "V4.5": {
+   "races": 31,
+   "hits7_mean": 3.387,
+   "win_top3": 13,
+   "quarte7": 9
+  },
+  "V5": {
+   "races": 31,
+   "hits7_mean": 3.097,
+   "trio7": 11,
+   "quarte7": 5,
+   "quinte7": 0,
+   "win_top1": 3,
+   "win_top3": 11,
+   "hits5_in5_mean": 2.355
+  }
+ },
+ "B_forward41_snap": {
+  "market_top7": {
+   "races": 41,
+   "hits7_mean": 3.488,
+   "trio7": 16,
+   "quarte7": 7,
+   "quinte7": 5,
+   "win_top1": 6,
+   "win_top3": 23,
+   "hits5_in5_mean": 2.854
+  },
+  "V4.5": {
+   "races": 41,
+   "hits7_mean": 3.512,
+   "trio7": 20,
+   "quarte7": 9,
+   "quinte7": 4,
+   "win_top1": 8,
+   "win_top3": 21,
+   "hits5_in5_mean": 2.951
+  },
+  "V5": {
+   "races": 41,
+   "hits7_mean": 3.585,
+   "trio7": 22,
+   "quarte7": 11,
+   "quinte7": 7,
+   "win_top1": 7,
+   "win_top3": 22,
+   "hits5_in5_mean": 2.927
+  },
+  "top5_logloss": {
+   "V4.5_logistic": 0.5437,
+   "V5": 0.532
+  },
+  "V5_minus_V45_hits7": {
+   "diff": 0.0732,
+   "ci95": [
+    -0.0976,
+    0.2439
+   ],
+   "p_gt0": 0.742
+  },
+  "V5_minus_market_hits7": {
+   "diff": 0.0976,
+   "ci95": [
+    -0.0732,
+    0.2683
+   ],
+   "p_gt0": 0.833
+  },
+  "V5_minus_V45_win_top3": {
+   "diff": 0.0244,
+   "ci95": [
+    -0.122,
+    0.1707
+   ],
+   "p_gt0": 0.575
+  }
+ },
+ "B_forward41_snap_PLAT": {
+  "market_top7": {
+   "races": 14,
+   "hits7_mean": 3.357,
+   "trio7": 4,
+   "quarte7": 2,
+   "quinte7": 1,
+   "win_top1": 2,
+   "win_top3": 7,
+   "hits5_in5_mean": 2.786
+  },
+  "V4.5": {
+   "races": 14,
+   "hits7_mean": 3.429,
+   "trio7": 5,
+   "quarte7": 3,
+   "quinte7": 2,
+   "win_top1": 3,
+   "win_top3": 5,
+   "hits5_in5_mean": 2.857
+  },
+  "V5": {
+   "races": 14,
+   "hits7_mean": 3.429,
+   "trio7": 5,
+   "quarte7": 2,
+   "quinte7": 1,
+   "win_top1": 3,
+   "win_top3": 8,
+   "hits5_in5_mean": 2.857
+  }
+ },
+ "B_forward41_db": {
+  "market_top7": {
+   "races": 41,
+   "hits7_mean": 3.561,
+   "trio7": 16,
+   "quarte7": 6,
+   "quinte7": 4,
+   "win_top1": 8,
+   "win_top3": 23,
+   "hits5_in5_mean": 2.927
+  },
+  "V4.5": {
+   "races": 41,
+   "hits7_mean": 3.537,
+   "trio7": 19,
+   "quarte7": 7,
+   "quinte7": 3,
+   "win_top1": 9,
+   "win_top3": 23,
+   "hits5_in5_mean": 3.024
+  },
+  "V5": {
+   "races": 41,
+   "hits7_mean": 3.634,
+   "trio7": 22,
+   "quarte7": 11,
+   "quinte7": 6,
+   "win_top1": 9,
+   "win_top3": 25,
+   "hits5_in5_mean": 2.976
+  },
+  "top5_logloss": {
+   "V4.5_logistic": 0.5374,
+   "V5": 0.5256
+  },
+  "V5_minus_V45_hits7": {
+   "diff": 0.0976,
+   "ci95": [
+    -0.0976,
+    0.2927
+   ],
+   "p_gt0": 0.816
+  },
+  "V5_minus_market_hits7": {
+   "diff": 0.0732,
+   "ci95": [
+    -0.0976,
+    0.2439
+   ],
+   "p_gt0": 0.755
+  },
+  "V5_minus_V45_win_top3": {
+   "diff": 0.0488,
+   "ci95": [
+    -0.0488,
+    0.1463
+   ],
+   "p_gt0": 0.786
+  }
+ },
+ "B_forward41_db_PLAT": {
+  "market_top7": {
+   "races": 14,
+   "hits7_mean": 3.571,
+   "trio7": 4,
+   "quarte7": 2,
+   "quinte7": 1,
+   "win_top1": 4,
+   "win_top3": 8,
+   "hits5_in5_mean": 2.857
+  },
+  "V4.5": {
+   "races": 14,
+   "hits7_mean": 3.429,
+   "trio7": 4,
+   "quarte7": 1,
+   "quinte7": 1,
+   "win_top1": 4,
+   "win_top3": 7,
+   "hits5_in5_mean": 2.929
+  },
+  "V5": {
+   "races": 14,
+   "hits7_mean": 3.5,
+   "trio7": 5,
+   "quarte7": 2,
+   "quinte7": 1,
+   "win_top1": 4,
+   "win_top3": 9,
+   "hits5_in5_mean": 3.0
+  }
+ }
+}

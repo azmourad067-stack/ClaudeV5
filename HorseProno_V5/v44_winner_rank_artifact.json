@@ -1,0 +1,33 @@
+{
+  "model_name": "HorseProno_Quinte_V4_4_Winner_Top3_PLAT",
+  "package_version": "4.4.0",
+  "status": "candidate_forward_validation",
+  "selection_policy": "Top7 V4.2/V4.3 strictement inchangé; réordonnancement uniquement sur PLAT",
+  "flat_order_score": {
+    "model_top5_rank_percentile": 0.50,
+    "lambdamart_rank_percentile": 0.40,
+    "form_context_mean": 0.10,
+    "market_direct_weight": 0.0,
+    "entity_win_weight": 0.0
+  },
+  "evaluation": {
+    "races": 58,
+    "flat_races": 31,
+    "development_races_all": 30,
+    "control_races_all": 28,
+    "development_flat": 17,
+    "control_flat": 14,
+    "baseline_all_winner_top3": "30/58",
+    "v44_all_winner_top3": "31/58",
+    "baseline_all_winner_top2": "20/58",
+    "v44_all_winner_top2": "22/58",
+    "baseline_flat_winner_top3": "12/31",
+    "v44_flat_winner_top3": "13/31",
+    "baseline_flat_winner_top2": "5/31",
+    "v44_flat_winner_top2": "7/31",
+    "flat_control_top3_baseline": "4/14",
+    "flat_control_top3_v44": "5/14",
+    "top7_membership_changed": false
+  },
+  "note": "La V4.4 ne modifie pas la couverture Trio/Quarté/Quinté dans les 7 car elle ne change jamais l'appartenance au Top7."
+}

@@ -1,0 +1,225 @@
+{
+ "results": {
+  "market_raw": {
+   "races": 1752,
+   "win_logloss": 1.9644
+  },
+  "market_fit_k1": {
+   "races": 1752,
+   "win_logloss": 1.9566
+  },
+  "market+internal_k1": {
+   "races": 1752,
+   "win_logloss": 1.9563
+  },
+  "market+music_k1": {
+   "races": 1752,
+   "win_logloss": 1.95
+  },
+  "market+internal+music_k1": {
+   "races": 1752,
+   "win_logloss": 1.9508
+  },
+  "all_k1": {
+   "races": 1752,
+   "win_logloss": 1.9532
+  },
+  "all_k3": {
+   "races": 1752,
+   "win_logloss": 1.977
+  },
+  "all_k5": {
+   "races": 1752,
+   "win_logloss": 2.0315
+  },
+  "all_k5_w[1, 0.8, 0.6, 0.5, 0.4]": {
+   "races": 1752,
+   "win_logloss": 2.001
+  },
+  "all_k5_w[1, 0.6, 0.4, 0.3, 0.2]": {
+   "races": 1752,
+   "win_logloss": 1.984
+  },
+  "all_k5_l2_10.0": {
+   "races": 1752,
+   "win_logloss": 2.0316
+  },
+  "all_k5_l2_100.0": {
+   "races": 1752,
+   "win_logloss": 2.0331
+  }
+ },
+ "betas": {
+  "market_fit_k1": {
+   "log_mkt": 0.986,
+   "log_mkt_trot": 0.012,
+   "odds_missing": -0.639
+  },
+  "market+internal_k1": {
+   "log_mkt": 0.937,
+   "log_mkt_trot": 0.015,
+   "odds_missing": -0.634,
+   "horse_name_top5": 0.008,
+   "horse_name_win": -0.016,
+   "jockey_top5": 0.038,
+   "jockey_win": 0.036,
+   "trainer_top5": 0.026,
+   "trainer_win": -0.005,
+   "horse_name_starts": 0.017,
+   "jockey_starts": 0.053,
+   "trainer_starts": 0.071,
+   "form": -0.01,
+   "consistency": -0.037
+  },
+  "market+music_k1": {
+   "log_mkt": 0.928,
+   "log_mkt_trot": 0.029,
+   "odds_missing": -0.635,
+   "mu_n": 0.023,
+   "mu_last": -0.026,
+   "mu_mean3": 0.01,
+   "mu_mean6": 0.145,
+   "mu_win6": 0.009,
+   "mu_top3_6": -0.007,
+   "mu_fail6": 0.214,
+   "mu_fail6_trot": -0.084,
+   "mu_same_disc6": -0.058,
+   "mu_same_disc6_obst": 0.032,
+   "mu_layoff": -0.023,
+   "mu_missing": -0.014
+  },
+  "market+internal+music_k1": {
+   "log_mkt": 0.871,
+   "log_mkt_trot": 0.035,
+   "odds_missing": -0.63,
+   "horse_name_top5": -0.014,
+   "horse_name_win": -0.034,
+   "jockey_top5": 0.039,
+   "jockey_win": 0.035,
+   "trainer_top5": 0.024,
+   "trainer_win": -0.003,
+   "horse_name_starts": 0.011,
+   "jockey_starts": 0.058,
+   "trainer_starts": 0.068,
+   "form": 0.009,
+   "consistency": -0.033,
+   "mu_n": 0.03,
+   "mu_last": -0.012,
+   "mu_mean3": 0.024,
+   "mu_mean6": 0.133,
+   "mu_win6": 0.018,
+   "mu_top3_6": -0.008,
+   "mu_fail6": 0.213,
+   "mu_fail6_trot": -0.088,
+   "mu_same_disc6": -0.054,
+   "mu_same_disc6_obst": 0.031,
+   "mu_layoff": -0.027,
+   "mu_missing": -0.009
+  },
+  "all_k1": {
+   "log_mkt": 0.871,
+   "log_mkt_trot": 0.03,
+   "odds_missing": -0.629,
+   "mu_n": 0.027,
+   "mu_last": -0.012,
+   "mu_mean3": 0.024,
+   "mu_mean6": 0.133,
+   "mu_win6": 0.02,
+   "mu_top3_6": -0.008,
+   "mu_fail6": 0.212,
+   "mu_fail6_trot": -0.086,
+   "mu_same_disc6": -0.054,
+   "mu_same_disc6_obst": 0.031,
+   "mu_layoff": -0.029,
+   "mu_missing": -0.009,
+   "horse_name_top5": -0.013,
+   "horse_name_win": -0.034,
+   "jockey_top5": 0.04,
+   "jockey_win": 0.036,
+   "trainer_top5": 0.024,
+   "trainer_win": -0.003,
+   "horse_name_starts": 0.012,
+   "jockey_starts": 0.059,
+   "trainer_starts": 0.069,
+   "form": 0.007,
+   "consistency": -0.033,
+   "weight_galop": -0.013,
+   "draw_plat": -0.143,
+   "draw_plat_sq": 0.113,
+   "draw_autostart": -0.026,
+   "age_young": -0.029,
+   "age_old": -0.019,
+   "sex_FEMELLES": -0.005
+  },
+  "all_k3": {
+   "log_mkt": 0.729,
+   "log_mkt_trot": -0.079,
+   "odds_missing": -0.312,
+   "mu_n": 0.045,
+   "mu_last": 0.037,
+   "mu_mean3": -0.008,
+   "mu_mean6": 0.16,
+   "mu_win6": -0.016,
+   "mu_top3_6": -0.016,
+   "mu_fail6": 0.04,
+   "mu_fail6_trot": 0.009,
+   "mu_same_disc6": 0.018,
+   "mu_same_disc6_obst": 0.021,
+   "mu_layoff": -0.028,
+   "mu_missing": 0.041,
+   "horse_name_top5": -0.046,
+   "horse_name_win": -0.033,
+   "jockey_top5": 0.045,
+   "jockey_win": 0.029,
+   "trainer_top5": 0.062,
+   "trainer_win": -0.013,
+   "horse_name_starts": 0.016,
+   "jockey_starts": 0.042,
+   "trainer_starts": 0.044,
+   "form": 0.029,
+   "consistency": -0.008,
+   "weight_galop": -0.005,
+   "draw_plat": -0.011,
+   "draw_plat_sq": -0.016,
+   "draw_autostart": -0.017,
+   "age_young": -0.013,
+   "age_old": -0.005,
+   "sex_FEMELLES": -0.012
+  },
+  "all_k5": {
+   "log_mkt": 0.607,
+   "log_mkt_trot": -0.123,
+   "odds_missing": -0.315,
+   "mu_n": 0.053,
+   "mu_last": 0.043,
+   "mu_mean3": 0.002,
+   "mu_mean6": 0.186,
+   "mu_win6": -0.045,
+   "mu_top3_6": -0.045,
+   "mu_fail6": 0.081,
+   "mu_fail6_trot": -0.053,
+   "mu_same_disc6": 0.052,
+   "mu_same_disc6_obst": -0.002,
+   "mu_layoff": -0.025,
+   "mu_missing": 0.068,
+   "horse_name_top5": -0.046,
+   "horse_name_win": -0.035,
+   "jockey_top5": 0.044,
+   "jockey_win": 0.003,
+   "trainer_top5": 0.039,
+   "trainer_win": -0.002,
+   "horse_name_starts": 0.015,
+   "jockey_starts": 0.047,
+   "trainer_starts": 0.03,
+   "form": 0.036,
+   "consistency": -0.006,
+   "weight_galop": 0.001,
+   "draw_plat": 0.001,
+   "draw_plat_sq": -0.022,
+   "draw_autostart": -0.011,
+   "age_young": -0.012,
+   "age_old": -0.001,
+   "sex_FEMELLES": 0.003
+  }
+ }
+}
