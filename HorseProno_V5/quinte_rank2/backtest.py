@@ -130,11 +130,19 @@ def leak_checks(h, quintes):
     # 1) cotes : toutes publiées avant le départ
     used = q[q.odds.notna()]
     assert (used.odds_ref_ms < used.start_ms).all()
-    # 2) musique : le 1er résultat de la musique ne doit pas être la course du jour
-    first = q.recent_form.fillna("").map(lambda s: parse_music(s)["mu_last"])
-    win = q.finish_full.eq(1)
-    print(f"Contrôle musique : P(1er symbole = 1 | gagnant du jour) = {(first[win] == 1).mean():.2f} "
-          f"vs P(1er symbole = 1 | autres) = {(first[~win] == 1).mean():.2f}")
+    # 2) musique : si elle incluait la course du jour, son 1er symbole serait l'arrivée du jour.
+    #    On compare avec la musique de la course SUIVANTE du même cheval, qui, elle, la contient.
+    import re
+    first = lambda s: (re.sub(r"\(\d{2}\)", "", str(s or "")) + " ")[0]
+    a = h.sort_values(["race_date", "race_id"]).copy()
+    a["key"] = a.horse_name.fillna("").str.upper()
+    a["next_form"] = a.groupby("key").recent_form.shift(-1)
+    a = a[a.race_id.isin(quintes.race_id) & a.finish_full.between(1, 9) & a.next_form.notna()]
+    fin = a.finish_full.astype(int).astype(str)
+    same = (a.recent_form.map(first) == fin).mean()
+    nxt = (a.next_form.map(first) == fin).mean()
+    print(f"Contrôle musique ({len(a)} partants de quintés) : 1er symbole = arrivée du jour dans "
+          f"{same:.0%} des cas (musique du jour) contre {nxt:.0%} (musique de la course suivante)")
     print(f"Cotes manquantes/non antérieures au départ : {q.odds.isna().mean():.1%} des partants de quintés ; "
           f"délai médian publication→départ {((used.start_ms - used.odds_ref_ms) / 60000).median():.0f} min")
 
