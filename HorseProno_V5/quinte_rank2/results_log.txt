@@ -1,2 +1,71 @@
 Contrôle musique (2903 partants de quintés) : 1er symbole = arrivée du jour dans 11% des cas (musique du jour) contre 96% (musique de la course suivante)
 Cotes manquantes/non antérieures au départ : 0.0% des partants de quintés ; délai médian publication→départ 30 min
+modèle 2025-10-27 2114 courses
+modèle 2025-11-03 2422 courses
+modèle 2025-11-10 2692 courses
+modèle 2025-11-17 3049 courses
+modèle 2025-11-24 3304 courses
+modèle 2025-12-01 3574 courses
+modèle 2025-12-08 3823 courses
+modèle 2025-12-15 4063 courses
+modèle 2025-12-22 4268 courses
+modèle 2025-12-29 4432 courses
+modèle 2026-01-05 4629 courses
+modèle 2026-01-12 4850 courses
+modèle 2026-01-19 5074 courses
+modèle 2026-01-26 5308 courses
+modèle 2026-02-02 5507 courses
+modèle 2026-02-09 5733 courses
+modèle 2026-02-16 5940 courses
+modèle 2026-02-23 6156 courses
+modèle 2026-03-02 6400 courses
+modèle 2026-03-09 6631 courses
+modèle 2026-03-16 6876 courses
+modèle 2026-03-23 7114 courses
+modèle 2026-03-30 7351 courses
+modèle 2026-04-06 7615 courses
+modèle 2026-04-13 7886 courses
+modèle 2026-04-20 8129 courses
+modèle 2026-04-27 8368 courses
+modèle 2026-05-04 8632 courses
+modèle 2026-05-11 8879 courses
+modèle 2026-05-18 9143 courses
+modèle 2026-05-25 9395 courses
+modèle 2026-06-01 9626 courses
+modèle 2026-06-08 9894 courses
+modèle 2026-06-15 10143 courses
+modèle 2026-06-22 10392 courses
+modèle 2026-06-29 10667 courses
+modèle 2026-07-06 10900 courses
+modèle 2026-07-13 11136 courses
+modèle 2026-07-20 11384 courses
+modèle 2026-07-27 11618 courses
+modèle 2026-08-03 11860 courses
+modèle 2026-08-10 12108 courses
+modèle 2026-08-17 12340 courses
+modèle 2026-08-24 12578 courses
+modèle 2026-08-31 12820 courses
+modèle 2026-09-07 13060 courses
+modèle 2026-09-14 13289 courses
+modèle 2026-09-21 13571 courses
+modèle 2026-09-28 13804 courses
+modèle 2026-10-05 14069 courses
+modèle 2026-10-12 14310 courses
+modèle 2026-10-19 14596 courses
+modèle 2026-10-26 14893 courses
+modèle 2026-11-02 15188 courses
+modèle 2026-11-09 15456 courses
+Gagnant : 374 quintés, 1re moitié 2025-11-01 → 2026-05-06, 2e moitié 2026-05-07 → 2026-11-09
+Placé : 374 quintés, 1re moitié 2025-11-01 → 2026-05-06, 2e moitié 2026-05-07 → 2026-11-09
+   Pari         Stratégie  Paris  Exclus (sans rapport)  Réussite %  ROI %  IC95 bas %  IC95 haut %  ROI 1re moitié %  ROI 2e moitié %  Rapport moyen gagnant
+Gagnant      2e du modèle    374                      0        15.8  -10.5       -32.1         12.2              13.0            -34.0                    5.7
+Gagnant     2e de la cote    374                      0        14.2  -26.1       -45.2         -6.0             -44.2             -8.1                    5.2
+Gagnant  Favori du modèle    374                      0        25.7  -11.8       -28.0          5.4             -22.4             -1.2                    3.4
+Gagnant Favori de la cote    374                      0        28.6    3.3       -14.4         22.2               8.7             -2.1                    3.6
+  Placé      2e du modèle    374                      0        40.4   -9.8       -21.2          2.2              -5.8            -13.9                    2.2
+  Placé     2e de la cote    374                      0        38.2  -17.0       -28.0         -5.7             -25.7             -8.2                    2.2
+  Placé  Favori du modèle    374                      0        51.6   -6.4       -15.9          3.4              -6.1             -6.6                    1.8
+  Placé Favori de la cote    374                      0        53.2   -4.5       -14.0          4.9               1.2            -10.3                    1.8
+Gagnant : 2e modèle − 2e cote = +15.7 pts de ROI, IC95 [-5.9 ; +37.7]
+Placé : 2e modèle − 2e cote = +7.1 pts de ROI, IC95 [-4.3 ; +18.3]
+Modèle 2 = Cote 2 dans 57% des quintés ; Modèle 1 = Cote 1 dans 82%
